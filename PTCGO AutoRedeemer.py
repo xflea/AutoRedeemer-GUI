@@ -109,10 +109,10 @@ window.geometry("600x550")
 window.resizable(False, False)
 '''window.iconbitmap(r'icon.ico')'''
 
-title = tk.Label(window, text="PTCGO Autoredeemer v1.0, by ealf")
+title = tk.Label(window, text="PTCGO Autoredeemer v1.0, by xflea")
 title.pack(pady = 10)
 
-link = tk.Label(window, text="http://ealf.altervista.org/", fg="blue", cursor="hand2")
+link = tk.Label(window, text="https://xflea.github.io/", fg="blue", cursor="hand2")
 link.pack(pady = 5)
 link.bind("<Button-1>", lambda event: webbrowser.open(link.cget("text")))
 
